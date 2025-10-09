@@ -14,4 +14,4 @@ UniBots are tiny wireless robots built on the fundation of Nano Technology which
 
 **Server:** Pure Python
 
-![alt text](github.com/parzival43/UniBot/blob/master/Photos/Esp8266%20prototyping.jpg?raw=true)
+![alt text](https://github.com/parzival43/UniBot/blob/master/Photos/Esp8266%20prototyping.jpg?raw=true)

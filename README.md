@@ -5,7 +5,7 @@ Please check for detailed report: [Project Report](https://github.com/parzival43
 
 # Key Features of UniBot
 * Completely Wireless – Wi-Fi Communication
-* Can be controlled via different remote systems like Neuralink or AI
+* Can be controlled via different remote systems like Neuralink[Future] or AI systems.
 * Sustainable energy source – Solar power, Causing no harm to Earth
 * AutoDock – Automatic wireless charging docking
 * Different/customized versions of UniBot – According to the needs of the usage fields.

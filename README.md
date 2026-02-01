@@ -23,11 +23,10 @@ Please check [Video Demonstration](https://github.com/parzival43/UniBot/blob/mas
 
 ![alt text](https://raw.githubusercontent.com/parzival43/UniBot/refs/heads/master/Photos/UniBot.jpg)
 
-# The Team
+# Our Team: Knight Labs
 Senthil Arasu J [Team Lead]
 
 Sahithian TR
 
 Muhammad Fayaazullah F
 
-Vels Vidyashram Dharga Road

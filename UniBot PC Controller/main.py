@@ -92,7 +92,7 @@ def on_release(key1):
         0
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-qs.bind(("0.0.0.0", 4433))
+s.bind(("0.0.0.0", 4433))
 s.listen(5)
 print("Initializing Server. Waiting for Client.")
 c = getc()

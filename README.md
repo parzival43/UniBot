@@ -1,32 +1,120 @@
-# UniBot
-UniBots are tiny wireless robots built on the fundation of Nano Technology which are capable of very small movements. But when it joins with rest of its cloud, it becomes an unimaginable power, with the only limitation of our imagination. 
+# UniBot — Distributed Swarm Robotics
 
-Please check [Project Report](https://github.com/parzival43/UniBot/blob/master/UniBot%20Project%20Report.pdf)
+> **What if a robot didn't have to be powerful to be useful?**
 
-Please check [Video Demonstration](https://github.com/parzival43/UniBot/blob/master/Photos/Demonstration.mp4?raw=true) 
+UniBot is an experimental platform for building **small, wireless, cooperative robots**.
 
-# Key Features of UniBot
-* Completely Wireless – Wi-Fi Communication
-* Can be controlled via different remote systems like Neuralink[Future] or AI systems.
-* Sustainable energy source – Solar power, Causing no harm to Earth
-* AutoDock – Automatic wireless charging docking
-* Different/customized versions of UniBot – According to the needs of the usage fields.
+The core idea: instead of putting every capability into one complex robot, distribute simple capabilities across a **swarm of inexpensive robots** and let them communicate and coordinate.
 
-# Tech Stack
+This project began as an exploration of miniature robotics and has evolved into a platform for experimenting with **distributed robotics, wireless coordination, autonomous docking, and collective behavior**.
 
-**Client:** ESP8266 MicroPyton integrated with TCP Web Sockets.
+**As each robot can independently reorient its drive assemblies, multiple UniBots can potentially reconfigure their collective geometry and movement direction. This creates the possibility of using the same population of robots for different formations and tasks rather than designing a separate robot for each task.**
 
-**Server:** Pure Python
-
-![alt text](https://github.com/parzival43/UniBot/blob/master/Photos/Esp8266%20prototyping.jpg?raw=true)
+UniBot is a continuing experiment rather than a finished product.
 
 
-![alt text](https://raw.githubusercontent.com/parzival43/UniBot/refs/heads/master/Photos/UniBot.jpg)
 
-# Our Team: Knight Labs
-Senthil Arasu J [Team Lead]
+## V1 Demonstration
 
-Sahithian TR
+[Watch the original V1 demonstration](https://github.com/parzival43/UniBot/blob/master/Photos/Demonstration.mp4?raw=true)
 
-Muhammad Fayaazullah F
+![UniBot prototype](https://raw.githubusercontent.com/parzival43/UniBot/refs/heads/master/Photos/UniBot.jpg)
 
+
+## About V1 Prototype
+
+The current UniBot prototype demonstrates:
+
+* Wireless communication over Wi-Fi
+* two-axis articulated locomotion mechanism
+* Python-based control software
+
+The current prototype is extremely simple and stable. It serves as a foundation for experimenting with autonomous collective behavior.
+
+The current prototype is only the first step.
+
+The central question is:
+
+> **How much collective capability can emerge from many extremely simple robots?**
+
+
+## The Idea
+
+A single small robot has obvious limitations: Specfic functionality, portability, scale, and physical capability.
+
+A group of tiny robots can be different.
+
+If individual robots can communicate and coordinate, the swarm can potentially:
+
+* divide tasks between robots
+* adapt when individual robots fail
+* form different configurations for different tasks
+* share information
+* operate using inexpensive hardware
+* recharge autonomously and continue operating
+
+**The goal is not to make one tiny robot extremely capable.
+The goal is to make many simple robots capable of working together.**
+
+
+
+## Hardware
+
+The current prototype is built around:
+
+* ESP8266
+* N20 DC motors and AD002 Servos
+* WI-FI communication
+* Custom miniature mechanical platform
+
+The architecture is intentionally designed around **low-cost and accessible components**, allowing multiple units to be constructed efficiently.
+
+
+## Software
+
+### Robot
+
+* MicroPython
+* ESP8266
+* TCP/WebSocket communication
+
+### Control System
+
+* Python
+* Socket networking
+* Pynput
+
+## Next Steps
+
+The next generation focuses on moving beyond individual control toward **collective autonomy**:
+
+1. Robot-to-robot communication
+2. Shared state
+3. Autonomous navigation
+4. Task allocation
+5. Formation/collective movement
+6. Autonomous docking
+7. Fault-tolerant swarm behavior
+
+
+## Project Report
+
+For the engineering documentation and development process:
+
+[Read the UniBot Project Report](https://github.com/parzival43/UniBot/blob/master/UniBot%20Project%20Report.pdf)
+
+
+## Team
+
+**Knight Labs**
+
+* Senthil Arasu J — Team Lead
+* Sahithian TR
+* Muhammad Fayaazullah F
+
+
+## Project Status
+
+**Experimental / Research Prototype**
+
+UniBot is an ongoing exploration of miniature distributed robotics. The current implementation demonstrates the basic platform; future versions will focus increasingly on autonomous coordination and collective behavior.

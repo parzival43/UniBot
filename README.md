@@ -14,14 +14,14 @@ UniBot is a continuing experiment rather than a finished product.
 
 
 
-## V1 Demonstration
+## V1
 
 [Watch the original V1 demonstration](https://github.com/parzival43/UniBot/blob/master/Photos/Demonstration.mp4?raw=true)
 
 ![UniBot prototype](https://raw.githubusercontent.com/parzival43/UniBot/refs/heads/master/Photos/UniBot.jpg)
 
 
-## About V1 Prototype
+Each UniBot uses a two-axis articulated drive mechanism: an N20 geared motor provides propulsion while an AD002 servo rotates the drive assembly. This allows the robot to change its direction of travel and, when multiple robots operate together, creates the possibility of collective reconfiguration into different formations.
 
 The current UniBot prototype demonstrates:
 
@@ -40,7 +40,7 @@ The central question is:
 
 ## The Idea
 
-A single small robot has obvious limitations: Specfic functionality, portability, scale, and physical capability.
+A single small robot has obvious limitations: Specific functionality, portability, scale, and physical capability.
 
 A group of tiny robots can be different.
 
@@ -64,7 +64,7 @@ The current prototype is built around:
 
 * ESP8266
 * N20 DC motors and AD002 Servos
-* WI-FI communication
+* Wi-Fi communication
 * Custom miniature mechanical platform
 
 The architecture is intentionally designed around **low-cost and accessible components**, allowing multiple units to be constructed efficiently.

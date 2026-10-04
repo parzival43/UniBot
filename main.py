@@ -128,12 +128,12 @@ while True:
     k += 1
     if(k > 5):
         sys.exit()
-k = 0								
+k = 0
 while(True):
     while(True):
         try:
             r = s.recv(3).decode()
-            break	
+            break
         except:
             print("Unable to get info")
             while k <= 5:

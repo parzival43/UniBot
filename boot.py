@@ -7,7 +7,9 @@ station = network.WLAN(network.STA_IF)
 station.active(True)
 #station.connect('OPPO A15s', 'senthil_43')
 #station.connect('ASTRO', '12345678')
-station.connect('JAI_TP-Link-2.4G', 'ganesh31114')
+station.connect('Master', 'micropython')
+#station.connect('JAI_TP-Link-2.4G', 'ganesh31114')
+#station.connect('Darga Road Campus 6', 'Vels@Annex')
 loopido = 0
 while(not station.isconnected() and loopido <= 40):
     time.sleep_ms(50)

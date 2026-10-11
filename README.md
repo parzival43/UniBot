@@ -11,14 +11,14 @@ UniBot is a continuing experiment rather than a finished project.
 
 Inspired by the reconfigurable microbots in Disney's Big Hero 6.
 
+For the engineering documentation and development process:
+
+[Read the UniBot Project Report](UniBot_Project_Report.pdf)
+
 ## V1
 
 [Watch the original V1 demonstration](Photos/README.md)
 
-
-For the engineering documentation and development process:
-
-[Read the UniBot Project Report](UniBot_Project_Report.pdf)
 
 ![UniBot prototype](Photos/UniBot.jpg)
 
@@ -69,8 +69,6 @@ If individual robots can communicate and coordinate, the swarm can:
 **The goal is not to make one tiny robot extremely capable.
 The goal is to make many simple robots capable of working together.**
 
-
-
 ## Hardware
 
 The current prototype is built around:
@@ -114,7 +112,7 @@ The next generation focuses on moving beyond individual control toward **collect
 
 **Knight Labs**
 
-* Senthil Arasu J — Team Lead
+* Senthil Arasu J 
 * Sahithian TR
 * Muhammad Fayaazullah F
 

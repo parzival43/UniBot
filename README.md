@@ -1,24 +1,27 @@
-# UniBot — Distributed Swarm Robotics
+# UniBot
 
-> **What if a robot didn't have to be powerful to be useful?**
+>**What is Unibot?**
 
-UniBot is an experimental platform for building **small, wireless, cooperative robots**.
-
-The core idea: instead of putting every capability into one complex robot, distribute simple capabilities across a **swarm of inexpensive robots** and let them communicate and coordinate.
-
-This project began as an exploration of miniature robotics and has evolved into a platform for experimenting with **distributed robotics, wireless coordination, autonomous docking, and collective behavior**.
-
-**As each robot can independently reorient its drive assemblies, multiple UniBots can potentially reconfigure their collective geometry and movement direction. This creates the possibility of using the same population of robots for different formations and tasks rather than designing a separate robot for each task.**
-
-UniBot is a continuing experiment rather than a finished product.
+Unibots are small wireless robots that work together to accomplish a task collectively. It is an example of Swarm Robotics.
 
 
+**As each robot can independently reorient its drive assemblies, multiple UniBots can reconfigure their collective geometry and movement direction. This creates the possibility of using the same population of robots for different formations and tasks that a single robot cannot accomplish.**
+
+UniBot is a continuing experiment rather than a finished project.
+
+Inspired by the reconfigurable microbots in Disney's Big Hero 6.
 
 ## V1
 
-[Watch the original V1 demonstration](https://github.com/parzival43/UniBot/blob/master/Photos/Demonstration.mp4?raw=true)
+[Watch the original V1 demonstration](Photos/README.md)
 
-![UniBot prototype](https://raw.githubusercontent.com/parzival43/UniBot/refs/heads/master/Photos/UniBot.jpg)
+
+For the engineering documentation and development process:
+
+[Read the UniBot Project Report](UniBot_Project_Report.pdf)
+
+![UniBot prototype](Photos/UniBot.jpg)
+
 
 
 Each UniBot uses a two-axis articulated drive mechanism: an N20 geared motor provides propulsion while an AD002 servo rotates the drive assembly. This allows the robot to change its direction of travel and, when multiple robots operate together, creates the possibility of collective reconfiguration into different formations.
@@ -37,18 +40,28 @@ The central question is:
 
 > **How much collective capability can emerge from many extremely simple robots?**
 
+### Recognition & Presentation
+
+UniBot V1 was selected for presentation at **IIT Madras Shaastra 2026 through the School Connect program**
+
+The project explores how multiple small robots with independently reorientable drive assemblies could change their collective movement and configuration.
+
+![UniBot presented at IIT Madras](Photos/UniBot_IITM.jpeg)
+
+*UniBot showcased at IIT Madras during the School Connect program.*
+
 
 ## The Idea
 
 A single small robot has obvious limitations: Specific functionality, portability, scale, and physical capability.
 
-A group of tiny robots can be different.
+but a team of multiple small robots change the situation entirely. 
 
-If individual robots can communicate and coordinate, the swarm can potentially:
+If individual robots can communicate and coordinate, the swarm can:
 
 * divide tasks between robots
 * adapt when individual robots fail
-* form different configurations for different tasks
+* form different structure for different tasks
 * share information
 * operate using inexpensive hardware
 * recharge autonomously and continue operating
@@ -64,8 +77,8 @@ The current prototype is built around:
 
 * ESP8266
 * N20 DC motors and AD002 Servos
-* Wi-Fi communication
-* Custom miniature mechanical platform
+* Custom miniature mechanical platform (Hot glue and cardboard ;))
+* L293D and Custom Perf-Board cicuit
 
 The architecture is intentionally designed around **low-cost and accessible components**, allowing multiple units to be constructed efficiently.
 
@@ -88,20 +101,13 @@ The architecture is intentionally designed around **low-cost and accessible comp
 
 The next generation focuses on moving beyond individual control toward **collective autonomy**:
 
-1. Robot-to-robot communication
-2. Shared state
+1. Indoor Localization
+2. Robot-to-robot communication
 3. Autonomous navigation
 4. Task allocation
 5. Formation/collective movement
 6. Autonomous docking
 7. Fault-tolerant swarm behavior
-
-
-## Project Report
-
-For the engineering documentation and development process:
-
-[Read the UniBot Project Report](https://github.com/parzival43/UniBot/blob/master/UniBot%20Project%20Report.pdf)
 
 
 ## Team
